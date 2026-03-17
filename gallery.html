@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery | Adv. Ramesh Kumar Singh</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <span class="brand-icon"><i class="fas fa-balance-scale"></i></span>
+      <span class="brand-text">Adv. Ramesh Kumar</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="toggler-icon"></span><span class="toggler-icon"></span><span class="toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+        <li class="nav-item ms-lg-3"><a class="nav-link nav-cta" href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('images/group.jpeg')"></div>
+  <div class="page-hero-overlay"></div>
+  <div class="container page-hero-content text-center">
+    <div data-anim="fade-up">
+      <div class="section-label light mx-auto">Our Work</div>
+      <h1 class="page-hero-title">Gallery</h1>
+      <p class="page-hero-sub">Glimpses from our awareness camps, village outreach, and community service</p>
+    </div>
+  </div>
+</section>
+
+<!-- FILTER -->
+<section class="section-pad pb-0">
+  <div class="container">
+    <div class="text-center mb-4" data-anim="fade-up">
+      <div class="gallery-filters">
+        <!-- <button class="gf-btn active" data-filter="all">All Photos</button>
+        <button class="gf-btn" data-filter="camp">Awareness Camps</button>
+        <button class="gf-btn" data-filter="village">Village Visits</button>
+        <button class="gf-btn" data-filter="court">Courtroom</button>
+        <button class="gf-btn" data-filter="women">Women Empowerment</button> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY GRID -->
+<section class="section-pad pt-4">
+  <div class="container">
+    <div class="gallery-masonry" id="galleryGrid">
+
+      <div class="gm-item" data-cat="camp" data-anim="fade-up">
+        <div class="gm-wrap">
+          <img src="images/awareness.jpeg" alt="Awareness Camp"/>
+          <div class="gm-overlay">
+            <i class="fas fa-expand-alt"></i>
+            <span>Legal Awareness Camp — Sonbhadra</span>
+          </div>
+        </div>
+        <p class="gm-caption">Legal Awareness Camp — Sonbhadra</p>
+      </div>
+
+      <div class="gm-item" data-cat="village" data-anim="fade-up" data-delay="50">
+        <div class="gm-wrap">
+          <img src="images/farmer.jpeg" alt="Village Visit"/>
+          <div class="gm-overlay">
+            <i class="fas fa-expand-alt"></i>
+            <span>With Farmers — Mirzapur</span>
+          </div>
+        </div>
+        <p class="gm-caption">With Farmers — Mirzapur</p>
+      </div>
+
+      <div class="gm-item tall" data-cat="women" data-anim="fade-up" data-delay="100">
+        <div class="gm-wrap">
+          <img src="images/womenpower1.jpeg" alt="Women Rights"/>
+          <div class="gm-overlay">
+            <i class="fas fa-expand-alt"></i>
+            <span>Women's Rights Camp — Varanasi</span>
+          </div>
+        </div>
+        <p class="gm-caption">Women's Rights Camp — Varanasi</p>
+      </div>
+
+      <div class="gm-item wide" data-cat="camp" data-anim="fade-up" data-delay="150">
+        <div class="gm-wrap">
+          <img src="images/legal.jpeg" alt="District Camp"/>
+          <div class="gm-overlay">
+            <i class="fas fa-expand-alt"></i>
+            <span>District-Level Legal Awareness Mahacamp</span>
+          </div>
+        </div>
+        <p class="gm-caption">District-Level Legal Awareness Mahacamp</p>
+      </div>
+
+      <div class="gm-item" data-cat="court" data-anim="fade-up" data-delay="200">
+        <div class="gm-wrap">
+          <img src="images/district.jpeg" alt="Court"/>
+          <div class="gm-overlay">
+            <i class="fas fa-expand-alt"></i>
+            <span>District Court, Sonbhadra</span>
+          </div>
+        </div>
+        <p class="gm-caption">District Court, Sonbhadra</p>
+      </div>
+
+      <div class="gm-item" data-cat="village" data-anim="fade-up" data-delay="250">
+        <div class="gm-wrap">
+          <img src="images/community.jpeg" alt="Village"/>
+          <div class="gm-overlay">
+            <i class="fas fa-expand-alt"></i>
+            <span>Community Dialogue Session</span>
+          </div>
+        </div>
+        <p class="gm-caption">Community Dialogue Session</p>
+      </div>
+
+      <div class="gm-item" data-cat="camp" data-anim="fade-up" data-delay="300">
+        <div class="gm-wrap">
+          <img src="images/health.jpeg" alt="Health Camp"/>
+          <div class="gm-overlay">
+            <i class="fas fa-expand-alt"></i>
+            <span>Health & Legal Joint Camp</span>
+          </div>
+        </div>
+        <p class="gm-caption">Health & Legal Joint Camp</p>
+      </div>
+
+      <div class="gm-item wide" data-cat="court" data-anim="fade-up" data-delay="350">
+        <div class="gm-wrap">
+          <img src="images/landcase.jpeg" alt="Victory"/>
+          <div class="gm-overlay">
+            <i class="fas fa-expand-alt"></i>
+            <span>Historic Land Case Victory — 2022</span>
+          </div>
+        </div>
+        <p class="gm-caption">Historic Land Case Victory — 2022</p>
+      </div>
+
+      <div class="gm-item" data-cat="village" data-anim="fade-up" data-delay="400">
+        <div class="gm-wrap">
+          <img src="images/news.jpeg" alt="Farmer"/>
+          <div class="gm-overlay">
+            <i class="fas fa-expand-alt"></i>
+            <span>Farmer Rights Seminar</span>
+          </div>
+        </div>
+        <p class="gm-caption">Farmer Rights Seminar</p>
+      </div>
+
+      <div class="gm-item" data-cat="women" data-anim="fade-up" data-delay="450">
+        <div class="gm-wrap">
+          <img src="images/womenpower2.jpeg" alt="Women"/>
+          <div class="gm-overlay">
+            <i class="fas fa-expand-alt"></i>
+            <span>Women Legal Literacy Session</span>
+          </div>
+        </div>
+        <p class="gm-caption">Women Legal Literacy Session</p>
+      </div>
+
+      <div class="gm-item tall" data-cat="camp" data-anim="fade-up" data-delay="500">
+        <div class="gm-wrap">
+          <img src="images/bono.jpeg" alt="Award"/>
+          <div class="gm-overlay">
+            <i class="fas fa-expand-alt"></i>
+            <span>Best Pro Bono Award — 2022</span>
+          </div>
+        </div>
+        <p class="gm-caption">Best Pro Bono Award — 2022</p>
+      </div>
+
+      <div class="gm-item" data-cat="village" data-anim="fade-up" data-delay="550">
+        <div class="gm-wrap">
+          <img src="images/elder.jpeg" alt="Elder"/>
+          <div class="gm-overlay">
+            <i class="fas fa-expand-alt"></i>
+            <span>Meeting with Village Elder</span>
+          </div>
+        </div>
+        <p class="gm-caption">Meeting with Village Elder</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div class="lightbox-wrap" id="lightbox">
+  <button class="lb-close" id="lbClose"><i class="fas fa-times"></i></button>
+  <button class="lb-prev" id="lbPrev"><i class="fas fa-chevron-left"></i></button>
+  <button class="lb-next" id="lbNext"><i class="fas fa-chevron-right"></i></button>
+  <div class="lb-inner">
+    <img id="lbImg" src="" alt=""/>
+    <p id="lbCaption" class="lb-caption"></p>
+  </div>
+</div>
+
+<section class="cta-section section-pad">
+  <div class="container">
+    <div class="cta-block" data-anim="zoom-in">
+      <div class="cta-glow"></div>
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <h2 class="cta-title">Invite Us to Your <span>Village</span></h2>
+          <p class="cta-desc">We organize free legal camps across rural UP. Let us bring the camp to your community.</p>
+        </div>
+        <div class="col-lg-5 text-lg-end mt-4 mt-lg-0">
+          <a href="contact.html" class="btn-hero-primary d-inline-flex">
+            <i class="fas fa-calendar-alt me-2"></i><span>Book a Camp</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="main-footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row gy-5">
+        <div class="col-lg-4">
+          <div class="footer-brand"><i class="fas fa-balance-scale"></i> Adv. Ramesh Kumar</div>
+          <p class="footer-about mt-3">Dedicated to bringing justice to rural India — one village, one family, one case at a time.</p>
+          <div class="footer-socials mt-4">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/919876543210"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6">
+          <h6 class="footer-heading">Pages</h6>
+          <ul class="footer-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-6">
+          <h6 class="footer-heading">Practice Areas</h6>
+          <ul class="footer-nav">
+            <li><a href="services.html">Land Disputes</a></li>
+            <li><a href="services.html">Women's Rights</a></li>
+            <li><a href="services.html">Labor Rights</a></li>
+            <li><a href="services.html">RTI Assistance</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h6 class="footer-heading">Contact Info</h6>
+          <ul class="footer-contact-list">
+            <li><i class="fas fa-phone-alt"></i><a href="tel:+919876543210">+91 98765 43210</a></li>
+            <li><i class="fas fa-envelope"></i><a href="mailto:ramesh.advocate@gmail.com">ramesh.advocate@gmail.com</a></li>
+            <li><i class="fas fa-map-marker-alt"></i>District Court Road, Sonbhadra, UP</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6"><p>© 2026 Adv. Ramesh Kumar Singh. All Rights Reserved.</p></div>
+        <div class="col-md-6 text-md-end"><p>Justice for Every Village — Every Day.</p></div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
